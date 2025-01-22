@@ -22,7 +22,6 @@
     "@reduxjs/toolkit": "^2.5.0",
     "@sjmc11/tourguidejs": "^0.0.19",
     "@types/cleave.js": "^1.4.12",
-    "@types/react-datepicker": "^7.0.0",
     "accept-language": "^3.0.20",
     "apexcharts": "^4.3.0",
     "axios": "^1.7.9",
