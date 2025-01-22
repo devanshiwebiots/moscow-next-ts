@@ -67,7 +67,6 @@ export const TOtalVisitorOptions: ApexOptions = {
   plotOptions: {
     bar: {
       borderRadius: 10,
-      // vartical: true,
       distributed: true,
       barHeight: "35%",
       dataLabels: {
@@ -163,11 +162,6 @@ export var Visitorfulldata:ApexOptions = {
     labels: {
       colors: "var(--chart-text-color)",
     },
-    // markers: {
-    //   width: 6,
-    //   height: 6,
-    //   radius: 12,
-    // },
     itemMargin: {
       horizontal: 10,
     },

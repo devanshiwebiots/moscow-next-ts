@@ -1,4 +1,3 @@
-// import ShowError from "@/Components/Other/Authentication/RegisterWizard/common/ShowError";
 import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
 
@@ -17,9 +16,7 @@ const VerticalWizardSlice = createSlice({
     bankingNextHandler: (state) => {
       if (state.netBankingFormValues.bankName !== "" && state.netBankingFormValues.feedBack !== "") {
         toast.info("Form successfully submitted");
-      } else {
-        // ShowError();
-      }
+      } 
     },
   },
 });

@@ -50,11 +50,6 @@ const SendMessage = () => {
       <ChatDropMenu />
       <Input className="msger-input two uk-textarea shadow-none" type="text" placeholder={TypeMessageHere} value={messageInput} onKeyPress={(e) => handleMessagePress(e)} onChange={(e) => handleMessageChange(e.target.value)} />
       <div>{showEmojiPicker ? <EmojiPicker onEmojiClick={({ emoji }) => addEmoji(emoji)} /> : null}</div>
-      {/* <div className="open-emoji">
-        <div className="open-emoji">
-          <div className="second-btn uk-button" onClick={() => setShowEmojiPicker(!showEmojiPicker)} />
-        </div>
-      </div> */}
       <div className="smiley-box">
         <div className="picker second-btn uk-button px-1" onClick={() => setShowEmojiPicker(!showEmojiPicker)} />
       </div>

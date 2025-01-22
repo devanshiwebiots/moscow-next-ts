@@ -50,9 +50,9 @@ export const authoption: NextAuthOptions = {
       }
       return token;
     },     
-    // async redirect({ url, baseUrl }) {
-    //   return url.startsWith(baseUrl) ? url : baseUrl;
-    // }
+    async redirect({ url, baseUrl }) {
+      return url.startsWith(baseUrl) ? url : baseUrl;
+    }
   },
   debug:true
   

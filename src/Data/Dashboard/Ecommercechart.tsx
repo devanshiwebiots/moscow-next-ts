@@ -56,7 +56,6 @@ export const SalesChart: ApexOptions = {
   },
   colors: ["#1a5f7f", "#1a5f7f1a "],
   xaxis: {
-    // show: false,
     labels: {
       show: false,
     },
@@ -223,7 +222,6 @@ export const IncomeChart: ApexOptions = {
   },
   colors: ["#dd7031", "#dd70311a"],
   xaxis: {
-    // show: false,
     labels: {
       show: false,
     },
@@ -390,7 +388,6 @@ export const OrderCharts: ApexOptions = {
   },
   colors: ["#da9817", "#da98171a"],
   xaxis: {
-    // show: false,
     labels: {
       show: false,
     },
@@ -557,7 +554,6 @@ export const VisitorChart: ApexOptions = {
   },
   colors: ["#0ea4ba", "#0ea4ba1a"],
   xaxis: {
-    // show: false,
     labels: {
       show: false,
     },
@@ -691,7 +687,6 @@ export const OrderThisMonthchart: ApexOptions = {
   },
   markers: {
     size: 6,
-    // strokeColor: "#ffffff",
     strokeWidth: 3,
     offsetX: -3,
     strokeOpacity: 1,
@@ -700,13 +695,8 @@ export const OrderThisMonthchart: ApexOptions = {
       size: 6,
     },
   },
-  // hover: {
-  //     size: 5,
-  //     sizeOffset: 0,
-  // },
   plotOptions: {
     bar: {
-      // vertical: true,
       columnWidth: "60%",
       borderRadius: 6,
       dataLabels: {
@@ -912,7 +902,6 @@ export const GoalOverviewChart: ApexOptions = {
       },
     },
   ],
-  // colors: ["#1a5f7f", "#dd7031"],
   colors: ["#1a5f7f", "#dd7031"],
 };
 
@@ -945,10 +934,8 @@ export const OrderMonthChartData:ApexOptions = {
     strokeColors: '#fff',
     strokeWidth: 2,
     shape: 'circle',
-    // radius: 2,
     hover: {
       size: 10,
-      // strokeWidth: 20,
     },
   },
   stroke: {
