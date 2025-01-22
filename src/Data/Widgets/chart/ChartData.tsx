@@ -17,7 +17,6 @@ export const widgetscardchart1: ApexOptions = {
     curve: "smooth",
   },
   xaxis: {
-    //   show: false,
     type: "datetime",
     categories: ["2018-09-19T00:00:00", "2018-09-19T01:30:00", "2018-09-19T02:30:00", "2018-09-19T03:30:00", "2018-09-19T04:30:00", "2018-09-19T05:30:00", "2018-09-19T06:30:00", "2018-09-19T07:30:00", "2018-09-19T08:30:00", "2018-09-19T09:30:00", "2018-09-19T10:30:00"],
     labels: {
@@ -87,7 +86,6 @@ export const widgetscardchart2: ApexOptions = {
     curve: "smooth",
   },
   xaxis: {
-    //   show: false,
     type: "datetime",
     categories: ["2018-09-19T00:00:00", "2018-09-19T01:30:00", "2018-09-19T02:30:00", "2018-09-19T03:30:00", "2018-09-19T04:30:00", "2018-09-19T05:30:00", "2018-09-19T06:30:00", "2018-09-19T07:30:00", "2018-09-19T08:30:00", "2018-09-19T09:30:00", "2018-09-19T10:30:00"],
     labels: {
@@ -156,7 +154,6 @@ export const widgetscardchart3: ApexOptions = {
     curve: "smooth",
   },
   xaxis: {
-    //   show: false,
     type: "datetime",
     categories: ["2018-09-19T00:00:00", "2018-09-19T01:30:00", "2018-09-19T02:30:00", "2018-09-19T03:30:00", "2018-09-19T04:30:00", "2018-09-19T05:30:00", "2018-09-19T06:30:00", "2018-09-19T07:30:00", "2018-09-19T08:30:00", "2018-09-19T09:30:00", "2018-09-19T10:30:00"],
     labels: {
@@ -229,7 +226,6 @@ export const optionscolumnchart: ApexOptions = {
     bar: {
       horizontal: false,
       columnWidth: "30%",
-      // endingShape: "rounded",
     },
   },
   dataLabels: {
@@ -312,7 +308,6 @@ export const optionsCircle: ApexOptions = {
   },
   plotOptions: {
     radialBar: {
-      // size: undefined,
       inverseOrder: false,
       hollow: {
         margin: 10,
@@ -338,11 +333,6 @@ export const optionsCircle: ApexOptions = {
     labels: {
       colors: "#2C323F",
     },
-    // markers: {
-    //   width: 86,
-    //   height: 18,
-    //   radius: 3,
-    // },
   },
   colors: ["var(--theme-secondary)", "var(--theme-default)", "#51bb25"],
   responsive: [
@@ -436,9 +426,6 @@ export const optionsProgress1: ApexOptions = {
   yaxis: {
     max: 100,
   },
-  // fill: {
-  //   opacity: 1,
-  // },
   responsive: [
     {
       breakpoint: 767,
@@ -1380,7 +1367,6 @@ export const optionscandlestickchart: ApexOptions = {
       opacityFrom: 1,
       opacityTo: 1,
       stops: [0, 100],
-      // gradientToColors: ["var(--theme-default)", "var(--theme-secondary)"],
     },
   },
   chart: {

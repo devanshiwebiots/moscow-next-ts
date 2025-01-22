@@ -333,7 +333,6 @@ export const ExpendituresChart: ApexOptions = {
     hover: {
       filter: {
         type: "darken",
-        // value: 1,
       },
     },
   },
@@ -694,7 +693,6 @@ export const RecentStatasticsData:ApexOptions = {
     show: false,
     min: 0, 
     tickAmount: 6,
-    // tickPlacement: "between",
   },
   tooltip: {
     shared: false,

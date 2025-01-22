@@ -261,52 +261,6 @@ export const monthlyOverviewChart: ApexOptions = {
       show: false,
     },
   },
-  // responsive: [
-  //   {
-  //     breakpoint: 1600,
-  //     options: {
-  //       xaxis: {
-  //         categories: [
-  //           "Jan",
-  //           "",
-  //           "Feb",
-  //           "",
-  //           "Mar",
-  //           "",
-  //           "Apr",
-  //           "",
-  //           "May",
-  //           "",
-  //           "Jun",
-  //           "",
-  //           "Jul",
-  //           "",
-  //           "Aug",
-  //           "",
-  //           "Sep",
-  //         ],
-  //       },
-  //       series: [
-  //         {
-  //           data: [
-  //             -66, 50, 150, 66, 50, 150, -79, -50, -136, -54, -40, -140, 79, 49,
-  //             -30, 50, 30,
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //   },
-  //   {
-  //     breakpoint: 380,
-  //     options: {
-  //       yaxis: {
-  //         labels: {
-  //           show: false, // Hide y-axis labels for this breakpoint
-  //         },
-  //       },
-  //     },
-  //   },
-  // ],
 };
 export const exploringBoundaries: ApexOptions ={
   series: [
@@ -471,27 +425,9 @@ export const sellViewChart: ApexOptions = {
       show: false,
     },
   },
-  // responsive: [
-  //   {
-  //     breakpoint: 768,
-  //     options: {
-  //       chart: {
-  //         height: 220,
-  //       },
-  //     },
-  //   },
-  // ],
 };
 export const studyStatisticsChart: ApexOptions = {
   series: [
-    // {
-    //     name: 'series1',
-    //     data: [4.6, 3.6, 2, 3, 4, 2.4, 2.8, 4.3, 2, 1.6, 3.2, 4],
-    // },
-    // {
-    //     name: 'series2',
-    //     data: [1.5, 2, 3.8, 3.5, 2.2, 3.5, 4, 3, 1.5, 3.8, 2, 3.5],
-    // },
     {
       name: "series1",
       data: [2.8, 3.2, 1.9, 4.5, 2.1, 3.7, 3, 3, 4.2, 1.8, 3.9, 2.6],
@@ -637,24 +573,6 @@ export const studyStatisticsChart: ApexOptions = {
   legend: {
     show: false,
   },
-  // responsive: [
-  //   {
-  //     breakpoint: 1661,
-  //     options: {
-  //       chart: {
-  //         height: 290,
-  //       },
-  //     },
-  //   },
-  //   {
-  //     breakpoint: 1200,
-  //     options: {
-  //       chart: {
-  //         height: 220,
-  //       },
-  //     },
-  //   },
-  // ],
 };
 
 export const BarChartData: ApexOptions = {
@@ -1000,19 +918,6 @@ export const PieChartData: ApexOptions = {
   },
   labels: ["Team A", "Team B", "Team C", "Team D", "Team E"],
   series: [44, 55, 13, 43, 22],
-  // responsive: [
-  //   {
-  //     breakpoint: 480,
-  //     options: {
-  //       chart: {
-  //         height: 250,
-  //       },
-  //       legend: {
-  //         show: false,
-  //       },
-  //     },
-  //   },
-  // ],
   colors: [primary, secondary, "#51bb25", "#a927f9", "#f8d62b"],
 };
 
@@ -1022,19 +927,6 @@ export const DountChartData: ApexOptions = {
     type: "donut",
   },
   series: [44, 55, 41, 17, 15],
-  // responsive: [
-  //   {
-  //     breakpoint: 480,
-  //     options: {
-  //       chart: {
-  //         height: 250,
-  //       },
-  //       legend: {
-  //         show: false,
-  //       },
-  //     },
-  //   },
-  // ],
   colors: ["#dc3545", "#f8d62b", primary, "#51bb25", "#a927f9"],
 };
 
@@ -1492,30 +1384,5 @@ export const CircleChartData: ApexOptions = {
   },
   series: [44, 55, 67, 83],
   labels: ["Apples", "Oranges", "Bananas", "Berries"],
-  // responsive: [
-  //   {
-  //     breakpoint: 480,
-  //     options: {
-  //       chart: {
-  //         height: 250,
-  //       },
-  //       legend: {
-  //         show: false,
-  //       },
-  //       plotOptions: {
-  //         radialBar: {
-  //           dataLabels: {
-  //             name: {
-  //               offsetY: -1,
-  //             },
-  //             value: {
-  //               offsetY: 4,
-  //             },
-  //           },
-  //         },
-  //       },
-  //     },
-  //   },
-  // ],
   colors: [secondary, "#51bb25", "#f8d62b", primary],
 };
