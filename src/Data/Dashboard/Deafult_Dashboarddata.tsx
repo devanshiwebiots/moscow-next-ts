@@ -333,7 +333,7 @@ export const ExpendituresChart: ApexOptions = {
     hover: {
       filter: {
         type: "darken",
-        value: 1,
+        // value: 1,
       },
     },
   },

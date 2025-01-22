@@ -9,23 +9,23 @@ import CrossFade from "./CrossFade";
 import IndividualInterval from "./IndividualInterval";
 import DisableTouchSwiping from "./DisableTouchSwiping";
 import DarkVariant from "./DarkVariant";
- 
-const OwlCarouselContainer = () => {
+
+const CarouselContainer = () => {
   return (
     <Container fluid>
       <Row>
-         <SlidesOnly/>
-         <WithControls/>
-         <AutoPlayVariant/>
-         <MouseOver/>
-         <WithCaptions/>
-         <CrossFade/>
-         <IndividualInterval/>
-         <DisableTouchSwiping/>
-         <DarkVariant/>
+        <SlidesOnly />
+        <WithControls />
+        <AutoPlayVariant />
+        <MouseOver />
+        <WithCaptions />
+        <CrossFade />
+        <IndividualInterval />
+        <DisableTouchSwiping />
+        <DarkVariant />
       </Row>
     </Container>
   );
 };
 
-export default OwlCarouselContainer;
+export default CarouselContainer;

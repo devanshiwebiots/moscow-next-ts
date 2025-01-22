@@ -10,15 +10,15 @@ import { useReactToPrint } from "react-to-print";
 import { InvoiceButtons } from "../Common/InvoiceButtons";
 
 const Invoice1Container = () => {
-  const componentRef = useRef<HTMLDivElement | null>(null);
+  const contentRef = useRef<HTMLDivElement | null>(null);
 
   const handlePrint = useReactToPrint({
-    content: () => componentRef.current,
+    contentRef,
   });
 
   return (
     <>
-      <div ref={componentRef}>
+      <div ref={contentRef}>
         <Container>
           <Card className="invoice-1">
             <CardBody>
@@ -45,7 +45,7 @@ const Invoice1Container = () => {
           </Card>
         </Container>
       </div>
-      <InvoiceButtons handlePrint={handlePrint}/>
+      <InvoiceButtons handlePrint={handlePrint} />
     </>
   );
 };

@@ -464,37 +464,31 @@ export const ServerColumn = [
   {
     name: "First Name",
     selector: (row: ServerSideProcessingColumnsInterface) => row.name,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Last Name",
     selector: (row: ServerSideProcessingColumnsInterface) => row.lastName,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "position",
     selector: (row: ServerSideProcessingColumnsInterface) => row.position,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "office",
     selector: (row: ServerSideProcessingColumnsInterface) => row.office,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Start Date",
     selector: (row: ServerSideProcessingColumnsInterface) => row.date,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Salary",
     selector: (row: ServerSideProcessingColumnsInterface) => row.salary,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
 ];

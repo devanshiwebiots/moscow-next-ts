@@ -11,16 +11,18 @@ import ResolutionTimeline from "./ResolutionTimeline";
 
 const Timelines = () => {
   return (
-    <Col sm='12' className='box-col-12'>
+    <Col sm="12" className="box-col-12">
       <Card>
         <CommonCardHeader title={TimelineTitle} span={TimeLineData} />
-        <CardBody className='default-timeline'>
-          <AppIdeasTimeline />
-          <BlogTimeline />
-          <CarouselTimeline />
-          <AutoTestingTimeline />
-          <MeetUpTimeline />
-          <ResolutionTimeline />
+        <CardBody className="default-timeline">
+          <section className="cd-container" id="cd-timeline">
+            <AppIdeasTimeline />
+            <BlogTimeline />
+            <CarouselTimeline />
+            <AutoTestingTimeline />
+            <MeetUpTimeline />
+            <ResolutionTimeline />
+          </section>
         </CardBody>
       </Card>
     </Col>

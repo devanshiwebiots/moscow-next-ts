@@ -1855,37 +1855,31 @@ export const JavaScriptSourceColumn = [
   {
     name: "Name",
     selector: (row: AjaxSourcedColumnsInterface) => row.name,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Position",
     selector: (row: AjaxSourcedColumnsInterface) => row.position,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Office",
     selector: (row: AjaxSourcedColumnsInterface) => row.office,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Extn.",
     selector: (row: AjaxSourcedColumnsInterface) => row.extends,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Start Date",
     selector: (row: AjaxSourcedColumnsInterface) => row.date,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Salary",
     selector: (row: AjaxSourcedColumnsInterface) => row.salary,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
 ];

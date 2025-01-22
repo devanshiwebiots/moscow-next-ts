@@ -414,7 +414,7 @@ export const AjaxRequestMovies: string = "AJAX Request Movie";
 export const MovieMode: string = "Movie mode";
 export const Username: string = "Username";
 
-//Bonus Ui - OwlCarousel
+//Bonus Ui - Carousel
 export const SlideOnly: string = "Slides Only";
 export const WithControl: string = "With Controls";
 export const AutoPlayVariants: string = "Auto Play Variant";

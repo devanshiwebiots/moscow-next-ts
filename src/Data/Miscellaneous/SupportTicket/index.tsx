@@ -378,43 +378,36 @@ export const SupportColumnData = [
   {
     name: "Image",
     cell: (row:SupportDataType) => <ImageData image={row.image} title={row.name}/>,
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Position",
     selector: (row:SupportDataType) => row["position"],
     sortable: true,
-    center: true,
   },
   {
     name: "Salary",
     selector: (row:SupportDataType) => row["salary"],
     sortable: true,
-    center: true,
   },
   {
     name: "Office",
     selector: (row:SupportDataType) => row["office"],
     sortable: true,
-    center: true,
   },
   {
     name: "Skill",
     cell: (row:SupportDataType) => <SkillsData value={row.skill} skillColor={row.skillColor} />,
     sortable: true,
-    center: true,
   },
   {
     name: "Extn",
     selector: (row: SupportDataType) => row["extn"],
     sortable: true,
-    center: true,
   },
   {
     name: "Email",
     selector: (row: SupportDataType) => row["email"],
     sortable: true,
-    center: true,
   },
 ];

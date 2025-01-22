@@ -29,30 +29,25 @@ export const AddRowColumn = [
     name: "Column1",
     selector: (row: AddRowsTable) => row.column1,
     sortable: true,
-    center: false,
   },
   {
     name: "Column2",
     selector: (row: AddRowsTable) => row.column2,
     sortable: true,
-    center: true,
   },
   {
     name: "Column3",
     selector: (row: AddRowsTable) => row.column3,
     sortable: true,
-    center: true,
   },
   {
     name: "Column4",
     cell: (row: AddRowsTable) => row.column4,
     sortable: true,
-    center: true,
   },
   {
     name: "Column5",
     cell: (row: AddRowsTable) => row.column5,
     sortable: true,
-    center: true,
   },
 ];

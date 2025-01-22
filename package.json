@@ -80,7 +80,6 @@
     "react-to-print": "^3.0.4",
     "react-toastify": "^11.0.3",
     "reactstrap": "^9.2.3",
-    "sass": "^1.83.4",
     "simplebar-react": "^3.3.0",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.15.10",
@@ -97,6 +96,7 @@
     "@types/react-slick": "^0.23.13",
     "eslint": "^9",
     "eslint-config-next": "15.1.5",
+    "sass": "1.77.6",
     "typescript": "^5"
   },
   "overrides": {

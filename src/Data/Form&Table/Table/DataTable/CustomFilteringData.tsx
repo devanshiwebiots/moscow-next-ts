@@ -756,37 +756,31 @@ export const FilteringTableColumn = [
   {
     name: "Employee Name",
     cell: (row: DeleteRowDataProp) => row["name"],
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "position",
     selector: (row: DeleteRowDataProp) => row["position"],
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "office",
     selector: (row: DeleteRowDataProp) => row["office"],
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "age",
     selector: (row: DeleteRowDataProp) => row["age"],
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "Start Date",
     selector: (row: DeleteRowDataProp) => row["startDate"],
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
   {
     name: "salary",
     selector: (row: DeleteRowDataProp) => row["salary"],
-    sortable: true,
-    center: false,
+    sortable: true,    
   },
 ];

@@ -45,7 +45,6 @@ export const SalesChart: ApexOptions = {
     hover: {
       filter: {
         type: "darken",
-        value: 1,
       },
     },
   },
@@ -213,7 +212,6 @@ export const IncomeChart: ApexOptions = {
     hover: {
       filter: {
         type: "darken",
-        value: 1,
       },
     },
   },
@@ -381,7 +379,6 @@ export const OrderCharts: ApexOptions = {
     hover: {
       filter: {
         type: "darken",
-        value: 1,
       },
     },
   },
@@ -549,7 +546,6 @@ export const VisitorChart: ApexOptions = {
     hover: {
       filter: {
         type: "darken",
-        value: 1,
       },
     },
   },

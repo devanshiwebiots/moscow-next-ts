@@ -14,9 +14,11 @@ export const CollapseFilterData = () => {
             {FiltersData.map((item, index) => (
               <Col key={index}>
                 <Input type="select">
-                  <option selected>{item.name}</option>
+                  <option defaultValue={item.name}>{item.name}</option>
                   {item.options.map((data, optionIndex) => (
-                    <option key={optionIndex} value={optionIndex + 1}>{data}</option>
+                    <option key={optionIndex} value={optionIndex + 1}>
+                      {data}
+                    </option>
                   ))}
                 </Input>
               </Col>
