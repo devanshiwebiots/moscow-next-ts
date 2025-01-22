@@ -47,22 +47,22 @@ body {
         }
       }
     }
-    .epr_-2zpaw9 {
-      border-color: rgba($white, 0.1);
-    }
-    .epr_-3yva2a {
-      border-top-color: rgba($white, 0.1);
-    }
-    .epr_jkst5z:hover {
-      background-color: rgba($white, 0.1);
-    }
     .msger-inputarea {
       .epr-search-container {
         input {
           background-color: $dark-body-background !important;
           color: $white !important;
+          border-color: rgba($white, 0.1);
         }
       }
+    }
+    .epr-visible {
+      &:focus {
+        background-color: rgba($white, 0.1);
+      }
+    }
+    .epr_iogimd {
+      border-top-color: rgba($white, 0.1);
     }
     .rmdp-ep-arrow {
       border-color: $dark-card-border !important;
